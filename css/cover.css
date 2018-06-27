@@ -748,6 +748,9 @@ section#action-transparent {
     padding-top: 30px;
     display: block;
 }
+.profile-pic{
+    float: right;
+}
 
 /* Numscroller */
 span.numscroller {
