@@ -2,6 +2,11 @@
  * forbetterweb.com - Cover Business Template
  */
 
+ .tech-logos{
+     height: 120px;
+     width:170px;
+ }
+
 /* Base structure */
 html,
 body {
@@ -151,7 +156,7 @@ a.border-button-black, .border-button-black {
     background: url(../img/cover7.jpg);
 }
 .site-wrapper-8 {
-    background: url(../img/cover9.jpg);
+    background: url('../img/Webp.net-resizeimage (3).png');
 }
 .site-wrapper,
 .site-wrapper-2,
@@ -751,6 +756,9 @@ section#action-transparent {
 .profile-pic{
     float: right;
 }
+/* .left{
+    float:left;
+} */
 
 /* Numscroller */
 span.numscroller {
