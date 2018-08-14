@@ -2,6 +2,9 @@
  * forbetterweb.com - Cover Business Template
  */
 
+/* .photo{
+    height:20%;
+} */
  .tech-logos{
      height: 120px;
      width:170px;
@@ -156,7 +159,7 @@ a.border-button-black, .border-button-black {
     background: url(../img/cover7.jpg);
 }
 .site-wrapper-8 {
-    background: url('../img/Webp.net-resizeimage (3).png');
+    background: url('../img/portfolio/circuit-board-portfolio.png');
 }
 .site-wrapper,
 .site-wrapper-2,
