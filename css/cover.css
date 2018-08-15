@@ -6,9 +6,29 @@
     height:20%;
 } */
  .tech-logos{
-     height: 120px;
-     width:170px;
+     height: 20%;
+     width:30%;
  }
+ .react{
+     width:38%;
+ }
+ .javaScript{
+     width:27%;
+ }
+ .jQ{
+     width:28.2%;
+ }
+ .firebase{
+     width:21.9%;
+ }
+ .mysql{
+     width:30.5%;
+ }
+ .node{
+     width:55.6%;
+ }
+
+
 
 /* Base structure */
 html,
@@ -159,7 +179,7 @@ a.border-button-black, .border-button-black {
     background: url(../img/cover7.jpg);
 }
 .site-wrapper-8 {
-    background: url('../img/portfolio/circuit-board-portfolio.png');
+    background: url('../img/portfolio/moon-man-mimal-pic.jpg');
 }
 .site-wrapper,
 .site-wrapper-2,
@@ -720,6 +740,9 @@ section#action-transparent {
     -moz-background-size: cover;
     background-size: cover;
 }
+/* .modal-pics{
+display:flex;    flex-direction:column;
+} */
 #action-parallax {
     background-image: url(../img/cover5.jpg);
 }
@@ -733,15 +756,17 @@ section#action-transparent {
     background-image: url(../img/cover6.jpg);
 }
 #action-parallax5 {
-    background-image: url(../img/cover10.jpg);
+    background-image: url(../img/portfolio/rock-climbing-minimalist.jpg);
 }
 #action-parallax6 {
-    background-image: url(../img/cover11.jpg);
+    background-image: url(../img/portfolio/minimalist-computer-dogs.jpg);
 }
 #action-parallax7 {
     background-image: url(../img/cover7.jpg);
 }
-
+.back-color{
+    background-color:#191e35;
+}
 #action-transparent {
     background: #1b1f23;
 }
@@ -1126,6 +1151,9 @@ margin-top: 20px;
     .lead {
         font-size: 18px;
         line-height: 1.9;
+    }
+    .cover h1:nth-child(1){
+        margin-top: 8%;
     }
     .cover h1.classic {
         font-size: 100px;
