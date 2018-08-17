@@ -5,6 +5,12 @@
 /* .photo{
     height:20%;
 } */
+.name-cover-title{
+    margin-bottom: 10%;
+}
+.web-dev{
+    margin-top: 27%;
+}
  .tech-logos{
      height: 20%;
      width:30%;
@@ -180,6 +186,22 @@ a.border-button-black, .border-button-black {
 }
 .site-wrapper-8 {
     background: url('../img/portfolio/moon-man-mimal-pic.jpg');
+    display: table;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    text-align: center;
+    color: #fff;
+    z-index:99;
+    position:relative;
+    overflow:hidden;
+    background-color: #1b1f23;
+    background-repeat: no-repeat;
+        -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    padding: 0 0 50px;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 .site-wrapper,
 .site-wrapper-2,
@@ -214,6 +236,7 @@ a.border-button-black, .border-button-black {
     z-index: 0;
 }
 
+
 .site-wrapper a,
 #footer,
 #footer a,
@@ -228,6 +251,7 @@ a.border-button-black, .border-button-black {
     vertical-align: top;
     position:relative;
 }
+
 .cover-container {
     margin-right: auto;
     margin-left: auto;
@@ -740,6 +764,7 @@ section#action-transparent {
     -moz-background-size: cover;
     background-size: cover;
 }
+
 /* .modal-pics{
 display:flex;    flex-direction:column;
 } */
@@ -765,7 +790,7 @@ display:flex;    flex-direction:column;
     background-image: url(../img/cover7.jpg);
 }
 .back-color{
-    background-color:#191e35;
+    background-color:#0a1f38;
 }
 #action-transparent {
     background: #1b1f23;
@@ -783,6 +808,9 @@ display:flex;    flex-direction:column;
 }
 .profile-pic{
     float: right;
+}
+.hobbies{
+    font-size: 2.14em;
 }
 /* .left{
     float:left;
