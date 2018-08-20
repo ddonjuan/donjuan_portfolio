@@ -1207,7 +1207,7 @@ margin-top: 20px;
         line-height: 1.9;
     }
     .cover h1:nth-child(1){
-        margin-top: 8%;
+        margin-top: -5%;
     }
     .cover h1.classic {
         font-size: 100px;
