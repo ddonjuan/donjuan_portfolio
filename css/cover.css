@@ -185,7 +185,7 @@ a.border-button-black, .border-button-black {
     background: url(../img/cover7.jpg);
 }
 .site-wrapper-8 {
-    background: url('../img/portfolio/moon-man-mimal-pic.jpg');
+    background: url('../img/portfolio/moon-man-mimal-pic.jpg') fixed;
     display: table;
     width: 100%;
     height: 100%;
@@ -460,6 +460,9 @@ margin: 0 10px;
 }
 
 @media(min-width:768px) {
+    .name-cover-title{
+        margin-top: 0%;
+    }
     .navbar-default {
         border: 0;
         background-color: transparent;
@@ -1190,6 +1193,9 @@ margin-top: 20px;
 
 
 @media (min-width: 992px) {
+    .name-cover-title{
+        margin-top: 0%;
+    }
     .mastfoot,
     .cover-container {
         max-width: 800px;
@@ -1214,18 +1220,34 @@ margin-top: 20px;
         padding-left: 90px;
     }
 }
-
+@media only screen and (min-width: 1024px){
+    .name-cover-title{
+        margin-top: 0%;
+    }
+}
 
 @media (max-width: 1440px) {
+    .name-cover-title{
+        margin-top: 0%;
+    }
 
 }
 
 @media (max-width: 1200px) {
+    .name-cover-title{
+        margin-top: 0%;
+    }
+    .name-cover-title{
+        margin-top: 0%;
+    }
     section {
         padding: 50px 0;
     }
 }
 @media (max-width: 992px) {
+    .name-cover-title{
+        margin-top: 0%;
+    }
     .cover h1 {
         font-size: 35px;
     }
@@ -1242,6 +1264,9 @@ margin-top: 20px;
     }
 }
 @media (max-width: 768px) {
+    .name-cover-title{
+        margin-top: 0%;
+    }
     h1 {
         font-size: 26px;
     }
