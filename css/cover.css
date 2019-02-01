@@ -1132,7 +1132,7 @@ margin-top: 20px;
     background:#fff;
 }
 .climb-find-edit-size{
-    object-fit: cover;
+    object-fit: contain;
 }
 /* Footer */
 #footer {
